@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1.6em;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.pimg {
+  opacity: 0.7;
+  background-attachment: fixed;
+  position: relative;
+}
+.pimg1 {
+  height: 100%;
+  background: url("./../img/pimg1.jpeg") no-repeat center;
+  background-attachment: fixed;
+}
+.pimg2 {
+  height: 350px;
+  background: url("./../img/pimg2.jpeg") no-repeat center;
+  background-attachment: fixed;
+}
+.pimg3 {
+  height: 350px;
+  background: url("./../img/pimg3.jpeg") no-repeat center;
+  background-attachment: fixed;
+}
+
+.section {
+  text-align: center;
+  padding: 20px 80px;
+}
+
+.section-light {
+  color: #666;
+  background-color: #ddd;
+}
+
+.section-dark {
+  color: #fff;
+  background-color: #666;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+}
+
+.border {
+  background: #000;
+  color: #fff;
+  padding: 4px 8px;
+  display: inline-block;
+  font-size: 1.6rem;
+}
+
+@media (max-width: 768px) {
+  .pimg {
+    background-attachment: scroll;
+  }
+}
